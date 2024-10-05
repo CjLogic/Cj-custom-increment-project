@@ -1,0 +1,60 @@
+body {
+    background-color: darkgrey;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: whitesmoke;
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    color: darkslategrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: red;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    color: darkslategrey;
+}
+
+button {
+    border: 2px solid black;
+    border-style: double;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button:hover {
+    opacity: 5;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: darkslategray;
+}
+
+#save-btn {
+    background: red;
+}
+
